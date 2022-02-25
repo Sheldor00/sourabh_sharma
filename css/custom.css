@@ -61,3 +61,6 @@ section#section-home:after {
     position: relative;
     text-shadow: 0 0 6px black, 0 0 black;
 }
+.arrow{
+    z-index: 9;
+}
