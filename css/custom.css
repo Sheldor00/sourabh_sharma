@@ -105,3 +105,8 @@ section#section-experiences .img-url {
     background-repeat: no-repeat !important;
     background-color: #1f1f1f !important;
 }
+@media (max-width: 767px){
+    div#logo span {
+    font-size: 14px;
+}
+}
