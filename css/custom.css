@@ -38,10 +38,8 @@ video {
     margin-right: 2px;
 }
 video.banner-v {
-    position: absolute;
-    object-fit: contain;
-    height: 760px;
-    margin-top: -50px;
+    position: absolute; 
+    margin-top: 0;
 }
 section#section-home {
     position: relative;
@@ -89,4 +87,21 @@ div#logo span{
     transform: translateY(0px);
   }
 }
- 
+/* 09-04-2022*/
+.table [class*="col-"].va-top { 
+    height: 100vh;
+}
+
+
+/*light gallery*/
+.carousel-item.click video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+section#section-experiences .img-url {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-color: #1f1f1f !important;
+}
